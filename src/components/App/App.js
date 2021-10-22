@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Container>
-      <h2 className={style.title}>Phonebook</h2>
+      <h2 className={style.title}>Phone book</h2>
       <ContactForm onSubmit={addContact} contacts={contacts} />
       <h2 className={style.title}>Contacts</h2>
       <Filter value={filter} onChange={changeFilter} />
